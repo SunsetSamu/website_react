@@ -1,9 +1,9 @@
 // Imports //
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Card, CardContent, CardActionArea, CardMedia } from '@mui/material'
+import { Card, CardContent } from '@mui/material'
 import { Box, Tab } from '@mui/material'
-import { TabContext, TabList, TabPanel } from '@mui/lab'
+import { TabContext, TabList } from '@mui/lab'
 import { Twitter, Youtube, Instagram } from 'lucide-react'
 import { FaDiscord } from 'react-icons/fa'
 import { SiBluesky } from 'react-icons/si'
