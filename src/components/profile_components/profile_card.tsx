@@ -22,7 +22,7 @@ const ProfileCard: React.FC<ProfileCardProps> = (props) => {
             </CardContent>
             <img
                 src={props.GIF_src}
-                style={{ position: 'fixed', top: '8rem', left: '8rem', width: '2.5rem', height: '2.5rem' }}
+                style={{ position: 'absolute', top: '8rem', left: '8rem', width: '2.5rem', height: '2.5rem' }}
             />
         </Card>
     );
